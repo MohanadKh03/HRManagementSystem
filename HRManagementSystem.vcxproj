@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="ExtraFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StudentController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="ExtraFunctions.h" />
+    <ClInclude Include="SystemController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
